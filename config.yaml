@@ -1,0 +1,97 @@
+baseurl: 'https://greywalker.tk'
+DefaultContentLanguage: es
+title: Greywalker
+theme: beautifulhugo
+enableRobotsTXT: true
+metaDataFormat: yaml
+# pygmentsStyle: trac # monocai, darcula
+# pygmentsUseClasses: true
+# pygmentsCodeFences: true
+# pygmentsCodefencesGuessSyntax: true
+# pygmentsUseClassic: true
+# pygmentOptions: linenos=inline
+disqusShortname: greywalker-tk
+# googleAnalytics: XXX
+# enableGitInfo: true
+Permalinks:
+  post: '/:year/:month/:title/' 
+Params:
+  homeTitle: Greywalker
+  subtitle: A developer blog
+  mainSections:
+    - post
+    # - posts
+  logo: img/avatar-icon.png
+  favicon: img/favicon.ico
+  # since: 2018
+  # dateFormat: 'January 2, 2006'
+  # commit: https://github.com/<username>/<siterepo>/tree/
+  rss: true
+  comments: true
+  readingTime: true
+  wordCount: true
+  # useHLJS: true
+  socialShare: true
+  # delayDisqus: true
+  showRelatedPosts: true
+  # hideAuthor: true
+  # gcse: '012345678901234567890:abcdefghijk'
+  bigimg:
+    - src: img/sphere.jpg
+      desc: Sphere
+      position: center top
+    - src: img/triangle.jpg
+      desc: Triangle
+    - src: img/hexagon.jpg
+      desc: Hexagon
+Author:
+  # name: Juan Antonio
+  # website: yourwebsite.com
+  # email: youremail@domain.com
+  # facebook: username
+  # github: username
+  # gitlab: username
+  # bitbucket: username
+  # twitter: username
+  # reddit: username
+  # linkedin: username
+  # xing: username
+  stackoverflow: users/8678179/madwyatt
+  # snapchat: username
+  # instagram: username
+  # youtube: user/username
+  # soundcloud: username
+  spotify: madwyatt
+  # bandcamp: username
+  # itchio: username
+  # vk: username
+  # paypal: username
+  # telegram: username
+  # 500px: username
+  # weibo: username
+menu:
+  main:
+    - name: Blog
+      url: ''
+      weight: 1
+    - name: About
+      url: page/about/
+      weight: 3
+    # - identifier: samples
+    #   name: Samples
+    #   weight: 2
+    # - parent: samples
+    #   name: Big Image Sample
+    #   url: post/2017-03-07-bigimg-sample
+    #   weight: 1
+    # - parent: samples
+    #   name: Math Sample
+    #   url: post/2017-03-05-math-sample
+    #   weight: 2
+    # - parent: samples
+    #   name: Code Sample
+    #   url: post/2016-03-08-code-sample
+    #   weight: 3
+    - name: Tags
+      url: tags
+      weight: 2

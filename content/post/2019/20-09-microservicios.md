@@ -19,8 +19,8 @@ Para comenzar, la **arquitectura de monolito** es la forma más común con que l
 
 Y así con el aumento de funcionalidad ir escalando a una maquina con mayor capacidad de computo para que la aplicación no disminuya el rendimiento en los momentos de mayor demanda.
 El siguiente paso común en la actualidad sería el salto al comercio online, donde nuestra arquitectura de monolito es más propensa a quedar estancada en momentos comerciales críticos como pueden ser los días de ofertas en que de un momento a otro la cantidad de usuarios puede superar los recursos de computo adquiridos para la aplicación. Es aquí donde entra en juego la **arquitectura de microservicios**.
-<!--more-->
 
+<!--more-->
 …
 
 

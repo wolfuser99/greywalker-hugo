@@ -9,11 +9,15 @@ tags: ["videos"]
 draft: false
 ---
 
+# Links
+
+1. https://codigofacilito.com/articulos/rust
+2. https://blog.adrianistan.eu/rust-101-tutorial-rust-espanol
+
+
+
 # Youtube
 
-- [ ] https://www.youtube.com/watch?v=cR6HiHL_u7k An Animated Guide to Vue 3 Reactivity and Internals
-- [ ] https://www.youtube.com/watch?v=P_IsppdGPsw State of the Vuenion 2020 || Evan You
-- [ ] https://www.youtube.com/watch?v=a2fjC_z-_p0 Authentication From Scratch
 - [ ] https://www.youtube.com/watch?v=oneGCBiPK_Q Understanding TDD with Modern JavaScript
 
 <!--more-->
